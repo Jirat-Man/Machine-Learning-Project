@@ -1,0 +1,30 @@
+Load Data
+Clean Data:
+    replace 999 with NaN
+    then drop all NaN because replacing them with mode decreases accuracy
+    checked for duplicates, no duplicates found
+    all data type are float, all good, no need to change categorical data to numerical
+
+Outliers handling:
+    use quantile ranges to detect outliers, then replace all the outliers with NaN
+    replace all possible Nan with the mode 
+    replace the rest of Nan with median
+   
+Feature Selection:
+    Filter Feature using Correlation:
+         Anything that has correlation score lower than 0.1 drop them
+         do your own research on this
+    
+    Wrapper Method(Sequential Feature Selection Forward):
+        do your own reseearch
+    PCA:
+        do you own research
+    
+Model Training and Evaluation:
+    K-fold cross validation to evaluate all models
+    I used many different models and feature selection combinations
+    do you research on each model
+    I am still in the process of finding the best model, tuning and finding problems
+    
+         
+    
